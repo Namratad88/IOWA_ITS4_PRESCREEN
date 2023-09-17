@@ -4,11 +4,16 @@ This is a WPF application with .NET 6 to determine the adjacency of Iowa countie
 
 # Architecture
 
-[architecture image](https://i.stack.imgur.com/H2LGM.png)
+<img src = "https://i.imgur.com/4SymcZb.png"/>
 
-- <symbol> - <purpose>
-- 
-- 
+
+- WPF UI - For prompting the user inputs and displaying the result of the adjacency function
+- Backend in .Net 6
+  * Button Click Function
+  * Button Click Function
+  * Function is triggered when the button on the UI is clicked
+- Business Logics - Adjacency function and database related code.
+- DB - SQL Server DB
 
 # Database Schema
 
