@@ -13,7 +13,7 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="60"/>
             <RowDefinition Height="100*"/>
-            <RowDefinition Height="40"/>
+            <RowDefinition Height="30"/>
         </Grid.RowDefinitions>
 
 
@@ -94,7 +94,7 @@
         </Grid>
 
         <Grid Grid.Row="2" Background="SlateGray">
-            <Label Grid.Column="1" Content="Submission by: Namrata Doddamani" FontSize="16" HorizontalAlignment="Center"/>
+            <Label Grid.Column="1" Content="Submission by : Namrata Doddamani" FontSize="16" HorizontalAlignment="Center"/>
 
         </Grid>
    

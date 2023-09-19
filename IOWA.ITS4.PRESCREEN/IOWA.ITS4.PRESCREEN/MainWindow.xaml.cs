@@ -35,6 +35,8 @@ namespace IOWA.ITS4.PRESCREEN
 
         private void onClick_CheckAdjacency(object sender, RoutedEventArgs e)
         {
+            outputBlock.Text = "";
+            labelError.Content = "";
             //Validate the Input
             Boolean validation = false;
             InputValidationRule ivr = new InputValidationRule();
@@ -55,12 +57,14 @@ namespace IOWA.ITS4.PRESCREEN
                 {
 
                     errorMessage = "Both inputs are the same";
+                    labelError.Content = errorMessage;
 
                 }
                 else if (countyInputs.mapID == 0 || countyInputs.adjacentMapID == 0)
                 {
 
                     errorMessage = "County code cannot be 0";
+                    labelError.Content = errorMessage;
 
                 }
                 else
