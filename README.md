@@ -45,11 +45,11 @@ This is a WPF application with .NET 6 to determine the adjacency of Iowa countie
 - I have created two tables, one containing county names and IDs and the other containing adjacent IDs
 - I have made the inputs into a class for code organisation
 - I have assumed the following validations
-  * input cannot be special characters or non-digit characters
-  * input cannot be greater than two digits
-  * input cannot be zero
-  * inputs cannot be equal to each other
-  * input cannot be empty
-- database only contains a sample of three counties
+  - input cannot be special characters or non-digit characters
+  - input cannot be greater than two digits
+  - input cannot be zero
+  - inputs cannot be equal to each other
+  - input cannot be empty
+- Database contains a sample of Story, Greene and Tama counties
 - I am displaying the county names in output as an extra feature
 
