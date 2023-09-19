@@ -9,9 +9,9 @@ This is a WPF application with .NET 6 to determine the adjacency of Iowa countie
 
 - WPF UI - For prompting the user inputs and displaying the result of the adjacency function
 - Backend in .Net 6
-  * Button Click Function
-  * Function is triggered when the button on the UI is clicked
-- Business Logics - Adjacency function and database related code.
+  * Button Click Function - Function is triggered when the button on the UI is clicked
+  * Validation - Input Validations
+  *  Business Logics - Adjacency function and database related code.
 - DB - SQL Server DB
 
 # Database Schema
@@ -36,7 +36,7 @@ This is a WPF application with .NET 6 to determine the adjacency of Iowa countie
 - clone the repo
 - use the sql files under the folder `sql` to set up the database and tables
 - load the project into visual studio
-- change the DB URL in `IOWA.ITS4.PRESCREEN\IOWA.ITS4.PRESCREEN\appsettings.json`
+- change the DB URL in `IOWA.ITS4.PRESCREEN\IOWA.ITS4.PRESCREEN\DBSetting.txt`
 - run the code, make sure startup project is `IOWA.ITS4.PRESCREEN`
 
 
